@@ -1,0 +1,145 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Sidebar - Sidebar Header & Sidebar Lists */
+a {
+  text-decoration-line: none;
+  color: black;
+}
+
+.Sidebar {
+  height: 100vh;
+  width: 300px;
+  background-color: #DDDDDD;
+}
+
+/* Sidebar Header */
+.SidebarHeader {
+  width: 100%;
+  height: 200px;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.Title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.SidebarHeader #sidebar-header-icon {
+  background-color: #DDDDDD;
+  flex: 35%;
+  display: grid;
+}
+
+.SidebarHeader #sidebar-header-title {
+  flex: 65%;
+  text-align: center;
+  margin-top: 40px;
+  color: #B62E2E;
+}
+
+/* Sidebar Lists */
+.UpperSidebarList {
+  margin-top: 20px;
+  height: 190px;
+  width: 100%;
+  padding: 0;
+  border-bottom: solid 1px #8f8f8f;
+}
+
+.MiddleSidebarList {
+  margin-top: 20px;
+  height: 420px;
+  width: 100%;
+  padding: 0;
+  border-bottom: solid 1px #8f8f8f;
+}
+
+.LowerSidebarList {
+  margin-top: 20px;
+
+  width: 100%;
+  padding: 0;
+}
+
+.tab-icon {
+  height: 30px;
+}
+
+.SiteLogo {
+  height: 80px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.SiteLogo:hover{
+  cursor: pointer;
+}
+
+.SidebarList {
+  height: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+.SidebarList .row {
+  width: 100%;
+  height: 55px;
+  margin: 0%;
+  display: flex;
+  flex-direction: row;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.SidebarList .row:hover {
+  cursor: pointer;
+  background-color: #8f8f8f;
+}
+
+.SidebarList .active {
+  background-color: #8f8f8f;
+}
+
+.row #icon {
+  position: relative;
+  bottom: 9px;
+  flex: 25%;
+  display: grid;
+  place-items: end;
+}
+
+.row #title {
+  flex: 75%;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.Page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.Side {
+  height: 100vh;
+  width: 300px;
+  position: fixed;
+}
+
+.Contents {
+  width: 100%;
+  padding-left: 300px;
+}

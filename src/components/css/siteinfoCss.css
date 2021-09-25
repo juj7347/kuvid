@@ -1,0 +1,49 @@
+.siteinfo header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.siteinfo .head{
+    display: inline;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 500%;
+}
+
+.siteinfo body {
+    position: relative;
+    bottom: 100px;
+    padding: 80px;
+}
+
+.context {
+    text-align: left;
+    line-height: 200%;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 84.5%;
+    height: 200px;
+    line-height: 400%;
+    background-color: black;
+}
+
+.contact {
+    color: white;
+    text-align: center;
+    
+}
+
+.contact a {
+    color: white;
+}
+
+footer #blacktiger{
+    position: absolute;
+    height: 80%;
+    right: 10px;
+    bottom: 30px;
+}

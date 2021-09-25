@@ -1,0 +1,15 @@
+.Boxform {
+    background: white;
+    width: 896px;
+    box-shadow: 0 5px 5px rgb(128 128 128);
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.Boxform .title {
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    background: rgba(0,0,0,0.23);
+    color: white;
+}
